@@ -36,6 +36,7 @@ class Phonebook extends Component {
     if (filter.length === 0) {
       filteredContacts = contacts;
     }
+
     return filteredContacts;
   };
   handleInputName = (e) => {
